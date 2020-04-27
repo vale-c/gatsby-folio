@@ -47,6 +47,9 @@ const Banner = () => {
           <spn>Scroll Down</spn>
         </div>
       </div>
+      <div className="fixed-misc">
+        Visual Artist and Photographer
+      </div>
     </div>
   )
 }
