@@ -47,12 +47,8 @@ const AboutBlurb = () => {
         </div>
       </div>
 
-      <div className="black-box">
-
-      </div>
-      <div className="black-box overlay">
-        
-        </div>
+      <div className="black-box"></div>
+      <div className="black-box overlay"></div>
     </div>
   )
 }
