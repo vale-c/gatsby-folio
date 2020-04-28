@@ -259,12 +259,13 @@ header {
 .cta {
   padding-bottom: 10%;
   .container {
+    padding: 0 20%;
     .row {
         display: flex;
         align-items: center;
         .title-left {
-          margin-top: -8%;
-          width: 50%;
+          margin-top: -12%;
+          width: 40%;
           @media (max-width: 1440px){
             width: 30%;
           }
@@ -284,7 +285,8 @@ header {
           font-family: $font;
           font-weight: 300;
           font-size: 1.3rem;
-          width: 50%;
+          
+          width: 40%;
           @media (max-width: 1440px){
             width: 70%;
           }
