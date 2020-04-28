@@ -255,3 +255,40 @@ header {
     width: 700px;
   }
 }
+
+.cta {
+  padding-bottom: 10%;
+  .container {
+    .row {
+        display: flex;
+        align-items: center;
+        .title-left {
+          margin-top: -8%;
+          width: 50%;
+          @media (max-width: 1440px){
+            width: 30%;
+          }
+          h3 {
+            text-transform: uppercase;
+            font-family: $font;
+            font-weight: 700;
+            font-size: 2rem;
+            letter-spacing: 5px;
+            @media (max-width: 1440px){
+              font-size: 1.5rem;
+            }
+          }
+        }
+        .cta-text {
+          line-height: 2;
+          font-family: $font;
+          font-weight: 300;
+          font-size: 1.3rem;
+          width: 50%;
+          @media (max-width: 1440px){
+            width: 70%;
+          }
+        }
+    }
+  }
+}

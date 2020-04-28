@@ -10,6 +10,7 @@ import Header from "../components/header";
 import Banner from "../components/banner";
 import AboutBlurb from "../components/aboutBlurb"
 import Video from "../components/video";
+import CallToAction from "../components/callToAction";
 
 const IndexPage = () => (
   <div> 
@@ -20,6 +21,7 @@ const IndexPage = () => (
         videoSrcURL="https://www.youtube.com/embed/mACx53PEg4I"
         videoTitle="Gatsby Portfolio Tutorial"
     />
+    <CallToAction />
   </div>
 )
 
