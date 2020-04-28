@@ -242,3 +242,14 @@ header {
     }
   }
 }
+
+.video-player iframe {
+  border: 0 solid;
+  height: 500px;
+  margin: 3% 25%;
+  width: 1000px;
+  -webkit-transform:scale(1);
+  -moz-transform:scale(0.8);
+  -o-transform:scale(0.8);
+  -ms-transform:scale(0.8);
+}

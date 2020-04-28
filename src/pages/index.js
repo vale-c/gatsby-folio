@@ -9,12 +9,17 @@ import "normalize.css"
 import Header from "../components/header";
 import Banner from "../components/banner";
 import AboutBlurb from "../components/aboutBlurb"
+import Video from "../components/video";
 
 const IndexPage = () => (
   <div> 
     <Header/>
     <Banner />
     <AboutBlurb />
+    <Video
+        videoSrcURL="https://www.youtube.com/embed/mACx53PEg4I"
+        videoTitle="Gatsby Portfolio Tutorial"
+    />
   </div>
 )
 
